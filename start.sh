@@ -1,3 +1,3 @@
 #!/bin/bash
 cd app
-nohup gunicorn --log-level debug api:app &
+gunicorn --bind 0.0.0.0:8000 --log-level debug api:app

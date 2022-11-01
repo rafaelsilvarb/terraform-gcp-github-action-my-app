@@ -90,3 +90,5 @@
 [2022-11-01 18:39:27 -0300] [2383688] [DEBUG] 1 workers
 [2022-11-01 18:40:14 -0300] [2383693] [DEBUG] POST /api/comment/new
 [2022-11-01 18:40:28 -0300] [2383693] [DEBUG] GET /api/comment/list/1
+[2022-11-01 18:56:14 -0300] [2383693] [INFO] Parent changed, shutting down: <Worker 2383693>
+[2022-11-01 18:56:14 -0300] [2383693] [INFO] Worker exiting (pid: 2383693)
