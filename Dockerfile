@@ -1,7 +1,7 @@
 FROM python:3.10
-COPY requirements.txt /
+COPY app/requirements.txt /
 RUN pip3 install -r requirements.txt
-COPY . /app
+COPY app/ /app
 WORKDIR /app
 EXPOSE 8000
 #ENTRYPOINT ["./start.sh"]
